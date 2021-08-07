@@ -18,10 +18,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('about', function () {
-    return 'About page';
-});
-
-Route::get('abot', function () {
-    return 'Reporting feature';
+Route::get('/github', function () {
+    return view('GitHub welcome');
 });
